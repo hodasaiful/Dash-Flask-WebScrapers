@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h3>{{ the_title }}</h3>
+
+<form method='POST' action='/count'>
+<table>
+<p>Give me a phrase and I shall return the count of vowels and consonants in it:</p>
+<tr><td>Phrase:</td><td><input name='phrase' type='TEXT' width='60'></td></tr>
+</table>
+<p>Click below to count:</p>
+<p><input value='Do it!' type='SUBMIT'></p>
+</form>
+
+{% endblock %}

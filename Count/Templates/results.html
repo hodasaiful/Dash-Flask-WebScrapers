@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Reports</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <br>
+  <br>
+  <br>
+  <table class="table table-bordered" style="text-align:center;font-size: 158%;">
+    <thead>
+      <tr class="success">
+        <th colspan="2" style="text-align:center;font-size: xx-large;">{{ the_title }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="danger">
+        <td style="text-align: right;">Is the Phrase</td>
+        <td style="text-align:left;">"{{the_phrase }}"</td>
+      </tr>
+      <tr class="info">
+        <td colspan="2">{{ the_results }}</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
